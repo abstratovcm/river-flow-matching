@@ -38,7 +38,7 @@ class Model(nn.Module):
             config=self.config["vector_field_regressor"])
 
     def load_from_ckpt(self, ckpt_path: str):
-        loaded_state = torch.load(ckpt_path, map_location="cpu")
+        loaded_state = torch.load(ckpt_path, map_location="cpu", weights_only=True)
 
         is_ddp = False
         for k in loaded_state["model"]:

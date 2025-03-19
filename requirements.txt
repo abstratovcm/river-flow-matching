@@ -1,0 +1,15 @@
+filelock==3.18.0
+fsspec==2025.3.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+mpmath==1.3.0
+networkx==3.4.2
+numpy==1.26.4
+pillow==11.1.0
+pytorch-triton-rocm @ file:///home/abstrato/work/git/river-flow-matching/pytorch_triton_rocm-3.0.0%2Brocm6.3.4.git75cc27c2-cp312-cp312-linux_x86_64.whl#sha256=7242b8caaae34d1854032f5811104b7ff3e5987c65fcca3422f2f37ec6958279
+setuptools==76.1.0
+sympy==1.12.1
+torch @ file:///home/abstrato/work/git/river-flow-matching/torch-2.4.0%2Brocm6.3.4.git7cecbf6d-cp312-cp312-linux_x86_64.whl#sha256=2aab0f6b105a8faee20daae826f034382b9bcd39c84f851b8f3d73b97ae404f5
+torchaudio @ file:///home/abstrato/work/git/river-flow-matching/torchaudio-2.4.0%2Brocm6.3.4.git69d40773-cp312-cp312-linux_x86_64.whl#sha256=df725d129b3d635814f82472de064b3a2a27ccb0f5c1c15c89bc6b1a6d8d8871
+torchvision @ file:///home/abstrato/work/git/river-flow-matching/torchvision-0.19.0%2Brocm6.3.4.gitfab84886-cp312-cp312-linux_x86_64.whl#sha256=143bff8155f95b8ec8223c65ad06cf3a8610fb4a0bea377b61869bdf82029714
+typing_extensions==4.12.2
