@@ -1,0 +1,18 @@
+640x480
+30fps
+
+./convert_mov_to_mp4.sh
+
+python -m dataset.acquisition.convert_video_directory \
+  --video_directory example/training/videos \
+  --output_directory example/training/data_dir/train \
+  --target_size 640 480 \
+  --fps 30
+
+
+python dataset/convert_to_h5.py \
+  --out_dir example/training/hdf5_dataset \
+  --data_dir example/training/data_dir \
+  --width 640 \
+  --height 480 \
+  --extension png
